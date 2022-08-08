@@ -33,11 +33,11 @@ async def brainy_quotes(query):
             input_message_content=InputTextMessageContent("ıllıllı★ 𝐁𝐫𝐚𝐢𝐧𝐲 𝐐𝐮𝐨𝐭𝐞𝐬 𝐁𝐨𝐭 ★ıllıllı \n\n" + quote + "\n\n~ " + author),
             url="https://t.me/StarkBots",
             description=quote,
-            thumb_url="https://telegra.ph/file/9fd2796d73782364dd2df.jpg",
+            thumb_url="https://te.legra.ph/file/ebd4a5dea7cbde11ec4e0.jpg",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("✨ Search More Quotes ✨", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                    [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/ajeet_bots")]
                 ]
             ),
         )
@@ -52,11 +52,11 @@ main = InlineQueryResultArticle(
             input_message_content=InputTextMessageContent(Data.HELP),
             url="https://t.me/StarkBots",
             description="Learn How to use me efficiently",
-            thumb_url="https://telegra.ph/file/9fd2796d73782364dd2df.jpg",
+            thumb_url="https://te.legra.ph/file/ebd4a5dea7cbde11ec4e0.jpg",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("✨ Search Quotes ✨", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                    [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/Ajeet_bots")]
                 ]
             ),
         )
