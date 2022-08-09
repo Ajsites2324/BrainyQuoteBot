@@ -41,21 +41,21 @@ class Data:
  
 **1) Search Quotes**
 Just pass the topic/name on which you wanna search quotes.
-Example : `@BrainQuoteBot Albert Einstein`
+Example : `@BrainQuoteroBot Albert Einstein`
 
 **2) Quote of the Day**
 To get 'Quote of the Day' pass `#q` or `#qod`. You will get that for 5 different topics.
-Example : `@BrainQuoteBot #qod`
+Example : `@BrainQuoteroBot #qod`
 
 **3) Random Quote**
 To get a single random quote pass `#r` or `#random`.
-Example : `@BrainQuoteBot #random`
+Example : `@BrainQuoteroBot #random`
 
 **4) A Single Quote**
 By default, when you will use 1st option, you will get 20-30 quotes. But if you want only 1 random quote of that topic, use `#1` in end.
-Example : `@BrainQuoteBot Sushant Singh Rajput #1`
+Example : `@BrainQuoteroBot Sushant Singh Rajput #1`
 
-More features in development. Keep track by joining @StarkBots.
+More features in development. Keep track by joining @AJEET_BOTS .
     """
 
     # About Message
