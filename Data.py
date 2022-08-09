@@ -4,13 +4,17 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+𝗛𝗲𝗺𝗹𝗼 𝗕𝗮𝗯𝘆 {}
 
-Welcome to {}
+𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 {} 𝗼𝘂𝗿 𝗳𝗮𝗻𝘁𝗮𝘀𝘁𝗶𝗰 𝗕𝗿𝗮𝗶𝗻𝗹𝘆 𝗾𝘂𝗼𝘁𝗲 𝗯𝗼𝘁.
 
-You can use me to search quotes on different topics and great people any time you want. To know how to use me press 'How to Use' below.
+𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝗲 𝗺𝗲 𝘁𝗼 𝘀𝗲𝗮𝗿𝗰𝗵 𝗾𝘂𝗼𝘁𝗲𝘀 𝗼𝗻 𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝘁𝗼𝗽𝗶𝗰𝘀 𝗮𝗻𝗱 𝗴𝗿𝗲𝗮𝘁 𝗽𝗲𝗼𝗽𝗹𝗲 𝗮𝗻𝘆 𝘁𝗶𝗺𝗲 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁. 𝗧𝗼 𝘂𝘀𝗲 𝗵𝗼𝘄 𝘁𝗼 𝘂𝘀𝗲 𝗺𝗲 𝗽𝗿𝗲𝘀𝘀 𝗼𝗻 '𝗛𝗢𝗪 𝗧𝗢 𝗨𝗦𝗘' 𝗯𝗲𝗹𝗼𝘄.
 
-By @StarkBots
+┏❖ 𝗕𝗼𝘁 𝗰𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆  
+┗ ☞ @PAPA_BOL_SAKTEHO
+
+┏❖ 𝗙𝗲𝗲𝗹𝗶𝗻𝗴𝘀  
+┗ ☞ @ABOUT_AJEET
     """
 
     # Home Button
@@ -27,8 +31,8 @@ By @StarkBots
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/AJEET_BOTS")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MODERN_ELEMENTS")],
     ]
 
     # Help Message
@@ -56,15 +60,17 @@ More features in development. Keep track by joining @StarkBots.
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**𝗔𝗕𝗢𝗨𝗧 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧** 
 
-Bot created by @StarkBots which provides quotes from brainyquotes.com using Python.
+𝗔 𝘁𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗤𝘂𝗼𝘁𝗲 𝗯𝗼𝘁 𝗯𝘆 @ABOUT_AJEET
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/BrainyQuoteBot)
+𝗠𝗼𝗿𝗲 𝗯𝗼𝘁𝘀 : [𝗖𝗹𝗶𝗰𝗸 𝗵𝗲𝗿𝗲](https://t.me/ajeet_bots)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+𝗦𝗼𝘂𝗿𝗰𝗲 𝗰𝗼𝗱𝗲 : [𝗖𝗹𝗶𝗰𝗸 𝗵𝗲𝗿𝗲](https://t.me/papa_bol_sakteho)
 
-Language : [Python](www.python.org)
+𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 : [𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺](docs.pyrogram.org)
 
-Developer : @StarkProgrammer
+𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 : [𝗣𝘆𝘁𝗵𝗼𝗻](www.python.org)
+
+𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : [𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ](https://t.me/papa_bol_sakteho)
     """
