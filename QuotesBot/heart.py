@@ -31,7 +31,7 @@ async def brainy_quotes(query):
         result = InlineQueryResultArticle(
             title=author,
             input_message_content=InputTextMessageContent("ıllıllı★ 𝐁𝐫𝐚𝐢𝐧𝐲 𝐐𝐮𝐨𝐭𝐞𝐬 𝐁𝐨𝐭 ★ıllıllı \n\n" + quote + "\n\n~ " + author),
-            url="https://t.me/StarkBots",
+            url="https://t.me/Ajeet_bots",
             description=quote,
             thumb_url="https://te.legra.ph/file/ebd4a5dea7cbde11ec4e0.jpg",
             reply_markup=InlineKeyboardMarkup(
@@ -50,7 +50,7 @@ async def brainy_quotes(query):
 main = InlineQueryResultArticle(
             title="Brainy Quotes Bot",
             input_message_content=InputTextMessageContent(Data.HELP),
-            url="https://t.me/StarkBots",
+            url="https://t.me/AJEET_BOTS",
             description="Learn How to use me efficiently",
             thumb_url="https://te.legra.ph/file/ebd4a5dea7cbde11ec4e0.jpg",
             reply_markup=InlineKeyboardMarkup(
