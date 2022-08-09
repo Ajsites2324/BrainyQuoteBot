@@ -29,7 +29,7 @@ async def random_quote():
         result = InlineQueryResultArticle(
             title=author,
             input_message_content=InputTextMessageContent("ıllıllı★ 𝐁𝐫𝐚𝐢𝐧𝐲 𝐐𝐮𝐨𝐭𝐞𝐬 𝐁𝐨𝐭 ★ıllıllı \n\n" + quote + "\n\n~ " + author),
-            url="https://t.me/StarkBots",
+            url="https://t.me/AJEET_BOTS",
             description=quote,
             thumb_url="https://te.legra.ph/file/ebd4a5dea7cbde11ec4e0.jpg",
             reply_markup=InlineKeyboardMarkup(
